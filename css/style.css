@@ -60,9 +60,9 @@
 {
     display: none;
     position: absolute;
-    width: 400px;
+    width: 500px;
     height: 500px;
-    background-color: #0c0c0cc5;
+    background-color: #fff;
     z-index: 5;
     margin-top: 110px;
     border-radius: 10px;
@@ -82,6 +82,34 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     margin: 40px auto;
+}
+.myPopup h2
+{
+    color: #000;
+}
+.myPopup h2 span
+{
+    color: #ff5e00;
+    font-size: 26px;
+    font-weight: 700;
+}
+.myPopup p
+{
+    color: #000;
+}
+.myPopup p span
+{
+    color: #ff5e00;
+    font-size: 24px;
+    font-weight: 700;
+}
+.myPopup i
+{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    font-size: 27px;
 }
 button{
     width: 250px;
