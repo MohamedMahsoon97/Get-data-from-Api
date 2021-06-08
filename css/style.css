@@ -1,0 +1,106 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-color{color: #f00;}
+.sec-color{color: #00f;}
+
+/* ----------------------------- Start section ----------------------------- */
+.container
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.my-data
+{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+.my-data > div
+{
+    width: 10%;
+    height: 252px;
+    background-color: #eee;
+    border: 1px solid #fff;
+}
+.my-data > div img
+{
+    margin: 20px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.my-data > div h2
+{
+    text-align: center;
+    font-size: 16px;
+    color: #ff5e00;
+    margin-top: 10px;
+}
+.myPopup
+{
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: #0c0c0cc5;
+    z-index: 5;
+    margin-top: 110px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+}
+.myPopup > img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 40px auto;
+}
+button{
+    width: 250px;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+    color: #fff;
+    font-weight: 800;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 300px auto;
+    cursor: pointer;
+}
+
+/* ----------------------------- End section ----------------------------- */
